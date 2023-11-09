@@ -423,10 +423,7 @@
 </ul></li>
 </ul>
 </div>
-
-<aside><div>
-<p>https://sheetcast.com/articles/ten-memorable-excel-disasters</p>
-</div></aside></section>
+</section>
 <section id="why-care-about-data-management" class="slide level2">
 <h2>Why care about data management?</h2>
 <ul>
@@ -436,6 +433,7 @@
 <li>Ensure correctness</li>
 <li>Increase efficiency</li>
 </ul>
+<p>For remainder, I am assuming that you have already planned the experiment, collected data and metadata, and have some kind of analysis to do.</p>
 </section>
 <section id="topics" class="slide level2 smaller">
 <h2>Topics</h2>
@@ -483,7 +481,7 @@
 </div><div class="column" style="width:25%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="golum.jpg"></p>
+<p><img data-src="images/golum.jpg"></p>
 </figure>
 </div>
 </div>
@@ -626,7 +624,7 @@
 </ol></li>
 </ol>
 
-<img data-src="tidy-1.png" class="r-stretch"><h3 id="pro-tip-2">Pro-tip</h3>
+<img data-src="images/tidy-1.png" class="r-stretch"><h3 id="pro-tip-2">Pro-tip</h3>
 <p><code>data.frame</code> like objects can be stored and retrieved efficiently using the Apache Arrow format instead of CSV files:</p>
 <div class="sourceCode" id="cb12"><pre class="sourceCode numberSource R number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1"></a>df <span class="ot">&lt;-</span> arrow<span class="sc">::</span><span class="fu">read_parquet</span>(<span class="st">"path/to/file.parquet"</span>)</span>
 <span id="cb12-2"><a href="#cb12-2"></a>arrow<span class="sc">::</span><span class="fu">write_parquet</span>(df, <span class="st">"path/to/different_file.parquet"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -685,7 +683,7 @@
 <section id="look-familiar" class="slide level2">
 <h2>Look familiar?</h2>
 
-<img data-src="home_organization.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="images/home_organization.png" class="r-stretch quarto-figure-center"></section>
 <section id="project-structure" class="slide level2">
 <h2>Project structure</h2>
 <ul>
@@ -796,7 +794,7 @@
 <li>Be careful committing sensitive information to GitHub</li>
 </ul>
 
-<img data-src="git.png" class="r-stretch quarto-figure-center"></section></section>
+<img data-src="images/git.png" class="r-stretch quarto-figure-center"></section></section>
 <section>
 <section id="software" class="title-slide slide level1 center">
 <h1>Software</h1>
@@ -1051,6 +1049,7 @@
 <ul>
 <li>Good Enough Practices in Scientific Computing: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510#sec004</li>
 <li>Backups: https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf</li>
+<li>File naming: https://library.si.edu/sites/default/files/filenamingorganizing_20210609.pdf</li>
 <li>Tidy data: https://www.jstatsoft.org/article/view/v059i10</li>
 <li>Frank Harrell’s R Workflow for Reproducible Analysis: https://hbiostat.org/rflow/
 <ul>
@@ -1078,6 +1077,8 @@
 <li>Efficient R Programming: https://bookdown.org/csgillespie/efficientR/</li>
 <li>R performance tips: https://peerj.com/preprints/26605.pdf</li>
 <li>R Inferno: https://www.burns-stat.com/documents/books/the-r-inferno/</li>
+<li>Introduction to data science: https://rafalab.github.io/dsbook-part-1/</li>
+<li>Advanced data science: https://rafalab.github.io/dsbook-part-2/</li>
 </ul>
 <div class="footer footer-default">
 
