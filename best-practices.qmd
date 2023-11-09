@@ -36,7 +36,7 @@ growth, influencing political discourse after the 2008 financial crisis
 - Ensure correctness
 - Increase efficiency
 
-For remainder, I am assuming that you have already planned the experiment,
+For the remainder, I am assuming that you have already planned the experiment,
 collected data and metadata, and have some kind of analysis to do.
 
 ## Topics {.smaller}
@@ -722,6 +722,7 @@ desktop based tools which will require saving these files in a versioned doc/ di
 
 ### Best practices
 
+- This presentation: https://github.com/coriell-research/best-practices
 - Good Enough Practices in Scientific Computing: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510#sec004
 - Backups: https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf
 - File naming: https://library.si.edu/sites/default/files/filenamingorganizing_20210609.pdf
